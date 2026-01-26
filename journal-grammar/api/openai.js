@@ -61,7 +61,9 @@ Be strict about offsets.
     text: {
       format: {
         type: "json_schema",
-        json_schema: analysisSchema
+        name: "journal_grammar_analysis",
+        schema: analysisSchema,
+        strict: true
       }
     }
   };
