@@ -1,0 +1,16 @@
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+.env
+.DS_Store
+coverage/
+tmp/
+temp/
+api/node_modules/
+api/.env
+ios/
+android/
+web-build/
+dist/
+build/

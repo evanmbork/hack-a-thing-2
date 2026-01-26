@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Journal Grammar",
+    "slug": "journal-grammar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "journalgrammar",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android", "web"]
+  }
+}
