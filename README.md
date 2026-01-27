@@ -9,7 +9,7 @@ I worked on my own to do this.
 
 **What I learned**
 
-I used two short YouTube videos to get started learning React Native:
+I used two short YouTube videos to get started learning react native. I also had ChatGPT help me write the initial "hello world" files that set up the general front end and back end structure, then on top of that I learned how to add buttons and functionality on a react native app.
 
 [React Native in 100 Seconds](https://youtu.be/gvkqT_Uoahw?si=I-bfksoNfSwrBcqE)
 
@@ -17,7 +17,6 @@ I used two short YouTube videos to get started learning React Native:
 
 I learned how to setup and build a react native app, connect it to an api, connect Open AI API, and run a dev test on my computer using Apples X Code iPhone emulator. 
 I also experimented with the app Expo Go which with simply a qr code lets you test out an app that you are running on your computer.
-I also 
 
 **How does this hack-a-thing inspire me or relate to my possible project ideas?**
 
