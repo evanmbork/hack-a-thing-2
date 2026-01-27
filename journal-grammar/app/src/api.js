@@ -1,5 +1,4 @@
 const API_BASE = "http://localhost:8787"; 
-// If testing on a real phone, replace localhost with your computer's LAN IP, e.g. http://192.168.1.20:8787
 
 export async function analyze({ languageHint, text, imageBase64, imageMime }) {
   const res = await fetch(`${API_BASE}/analyze`, {

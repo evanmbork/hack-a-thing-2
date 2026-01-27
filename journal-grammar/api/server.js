@@ -5,7 +5,7 @@ import { analyzeJournal } from "./openai.js";
 
 const app = express();
 app.use(cors());
-app.use(express.json({ limit: "15mb" })); // for base64 photos
+app.use(express.json({ limit: "15mb" }));
 
 app.get("/health", (_req, res) => res.json({ ok: true }));
 

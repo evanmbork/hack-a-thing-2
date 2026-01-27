@@ -35,7 +35,6 @@ Be strict about offsets.
     content: [{ type: "input_text", text: system }]
   });
 
-  // User content: include both text + image if available
   const userContent = [{ type: "input_text", text: userInstruction }];
 
   if (text && text.trim().length > 0) {

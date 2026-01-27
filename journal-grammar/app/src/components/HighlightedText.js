@@ -1,9 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { Text, View, Pressable, StyleSheet } from "react-native";
 
-// We highlight based on ORIGINAL input offsets.
-// In the Result screen we show "original with highlights" + "corrected text" separately.
-
 export default function HighlightedText({ originalText, issues }) {
   const [activeId, setActiveId] = useState(null);
 

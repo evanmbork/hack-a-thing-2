@@ -5,20 +5,7 @@ import HighlightedText from "../components/HighlightedText";
 export default function ResultScreen({ route }) {
   const { analysis } = route.params;
 
-  // The model outputs corrected_text + issues offsets for ORIGINAL.
-  // We also want the ORIGINAL text available. For typed input you have it.
-  // For photo input, the model’s "corrected_text" is based on its transcription.
-  //
-  // Simple approach for hack-week:
-  // - Ask model to include the transcription inside corrected_text? Not ideal.
-  // Better:
-  // - Extend schema to include original_text field.
-  //
-  // For now, we’ll assume corrected_text is separate and show highlights on corrected_text
-  // only if you also pass original in route params.
-  //
-  // To keep this runnable: we’ll treat corrected_text as the "originalText" for highlight rendering.
-  const originalText = analysis.corrected_text; // swap later when you add original_text to schema
+  const originalText = analysis.corrected_text;
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ paddingBottom: 40 }}>
